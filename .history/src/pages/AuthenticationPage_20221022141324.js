@@ -35,12 +35,12 @@ const AuthenticationPage = ({ children }) => {
 			<div className="container">
 				<NavLink to="/">
 					<img
-						srcSet="/logodbz.png 2x"
+						srcSet="/logo2.png 2x"
 						alt="Monkey Blogging"
 						className="logo"
 					/>
 				</NavLink>
-				<h1 className="heading">Dragon Ball Blog</h1>
+				<h1 className="heading">Monkey Blog</h1>
 				{children}
 			</div>
 		</AuthenticationPageStyles>
